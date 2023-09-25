@@ -25,7 +25,7 @@ This portfolio is a collection of projects, designs, and code samples that repre
 - HTML
 - CSS
 - JavaScript
-- (List any other technologies or libraries you've used)
+- scss
 
 ## Getting Started
 
