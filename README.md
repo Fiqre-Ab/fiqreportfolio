@@ -56,5 +56,8 @@ Push to the branch: git push origin feature-name.
 Create a pull request on GitHub.
 Please ensure that your contributions align with the purpose and style of this portfolio.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+License: This project is licensed by fiqre
+
+[![DEPLOY](https://img.shields.io/badge/DEPLOY-%E2%9C%93-brightgreen)](https://fiqre-ab.github.io/fiqreportfolio/)
