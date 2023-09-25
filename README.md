@@ -1,6 +1,6 @@
 # Fiqre Portfolio
 
-Welcome to my portfolio! This project showcases my work and skills as a web developer/designer. You can visit the live site [here](https://fiqre-ab.github.io/fiqreportfolio/).
+Welcome to my portfolio! This project showcases my work and skills as a web developer/designer.
 
 ## Table of Contents
 
@@ -29,14 +29,7 @@ This portfolio is a collection of projects, designs, and code samples that repre
 
 ## Getting Started
 
-If you want to explore or run this portfolio locally, follow these steps:
-
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/dd/portfolio.git
-   Open the project directory:
-   ```
+If you want to explore or run this portfolio locally
 
 bash
 Copy code
