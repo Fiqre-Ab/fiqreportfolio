@@ -57,7 +57,7 @@ sr.reveal(".work__img", { interval: 200 });
 sr.reveal(".contact__input", { interval: 200 });
 
 /*Contact submit */
-
+/* Getting the HTML element IDs and assigning them to new variables */
 document.addEventListener("DOMContentLoaded", function () {
   const contactForm = document.getElementById("contact-form");
   const nameInput = document.getElementById("name");
@@ -69,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     e.preventDefault(); // Prevent the default form submission behavior
 
     // Validate the form fields
+    //if the validateform is true send alert form submitted successfully and reset the text
     if (validateForm()) {
       // If the form is valid, you can send the data to the server using AJAX or Fetch API
       // Example: sendFormDataToServer();
@@ -77,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
       contactForm.reset(); // Reset the form
     }
   });
-
+  //if the validateform is Checking if name, email, or message fields are empty.if they are return false(please fill out all fields) else return true
   function validateForm() {
     // Add your validation logic here
     // Example validation: Ensure all fields are filled out

@@ -12,13 +12,14 @@
   --second-color: #0e2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/* Defining font and typography variables */
 :root {
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
+/* Media query for larger screens */
 @media screen and (min-width: 768px) {
   :root {
     --big-font-size: 3.5rem;
@@ -28,6 +29,7 @@
 }
 
 /*===== Margenes =====*/
+/* Defining margin variables */
 :root {
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -38,6 +40,7 @@
 }
 
 /*===== z index =====*/
+/* Defining z-index variables */
 :root {
   --z-back: -10;
   --z-normal: 1;
@@ -46,6 +49,7 @@
 }
 
 /*===== BASE =====*/
+/* Base CSS styles for various elements */
 *,
 ::before,
 ::after {
@@ -60,6 +64,7 @@ body {
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
+/* Reset margin for specific elements */
 h1,
 h2,
 p {
@@ -80,6 +85,7 @@ img {
 }
 
 /*===== CLASS CSS ===== */
+/* CSS styles for specific class-based elements */
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
