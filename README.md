@@ -6,6 +6,7 @@ Welcome to my portfolio! This project showcases my work and skills as a web deve
 
 - [About](#about)
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -20,12 +21,15 @@ This portfolio is a collection of projects, designs, and code samples that repre
 
 - List the key features and highlights of your portfolio.
 
+## screenshots
+
+![Alt Text](assets/img/README.png)
+
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- scss
 
 ## Getting Started
 

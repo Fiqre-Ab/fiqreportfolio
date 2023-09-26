@@ -79,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
   //if the validateform is Checking if name, email, or message fields are empty.if they are return false(please fill out all fields) else return true
+
   function validateForm() {
     // Add your validation logic here
     // Example validation: Ensure all fields are filled out
