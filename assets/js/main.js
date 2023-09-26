@@ -55,3 +55,41 @@ sr.reveal(".work__img", { interval: 200 });
 
 /*SCROLL CONTACT*/
 sr.reveal(".contact__input", { interval: 200 });
+
+/*Contact submit */
+
+document.addEventListener("DOMContentLoaded", function () {
+  const contactForm = document.getElementById("contact-form");
+  const nameInput = document.getElementById("name");
+  const emailInput = document.getElementById("email");
+  const messageInput = document.getElementById("message");
+  const submitButton = document.getElementById("submit-btn");
+
+  contactForm.addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent the default form submission behavior
+
+    // Validate the form fields
+    if (validateForm()) {
+      // If the form is valid, you can send the data to the server using AJAX or Fetch API
+      // Example: sendFormDataToServer();
+      // After sending data, you can display a success message or reset the form
+      alert("Form submitted successfully!");
+      contactForm.reset(); // Reset the form
+    }
+  });
+
+  function validateForm() {
+    // Add your validation logic here
+    // Example validation: Ensure all fields are filled out
+    if (
+      nameInput.value.trim() === "" ||
+      emailInput.value.trim() === "" ||
+      messageInput.value.trim() === ""
+    ) {
+      alert("Please fill out all fields.");
+      return false; // Form is not valid
+    }
+
+    return true; // Form is valid
+  }
+});

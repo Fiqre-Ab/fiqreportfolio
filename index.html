@@ -107,8 +107,10 @@
           <div>
             <h2 class="about__subtitle">I'm Fiqre</h2>
             <p class="about__text">
-              I'm a web designer and front-end developer.I build websites to
-              help my clients push their businesses further online.
+              I'm a versatile web designer and full-stack developer dedicated to
+              crafting engaging online experiences. My mission is to empower
+              businesses and elevate their online presence through beautifully
+              designed and functional websites.
             </p>
           </div>
         </div>
@@ -231,32 +233,35 @@
         <h2 class="section-title">Contact</h2>
 
         <div class="contact__container bd-grid">
-          <form
-            action="https://formspree.io/fiqreyesustezare@gmail.com"
-            class="contact__form"
-            method="POST"
-          >
+          <form action="" class="contact__form" method="POST" id="contact-form">
             <input
               type="text"
               placeholder="Name"
               class="contact__input"
               name="username"
+              id="name"
             />
             <input
               type="mail"
               placeholder="Email"
               class="contact__input"
               name="_replyto"
+              id="email"
             />
             <textarea
               type="text"
-              id=""
+              id="message"
               cols="0"
               rows="10"
               class="contact__input"
               name="message"
             ></textarea>
-            <input type="Submit" value="Send" class="contact__button button" />
+            <input
+              type="Submit"
+              id="Submit-btn"
+              value="Send"
+              class="contact__button button"
+            />
           </form>
         </div>
       </section>
