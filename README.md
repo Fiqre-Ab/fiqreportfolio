@@ -40,10 +40,12 @@ Copy code
 cd portfolio
 Open the index.html file in your web browser to view the portfolio.
 
-Usage
+## Usage
+
 You can navigate through my portfolio to view the various projects and designs I've worked on. Feel free to explore the different sections and interact with the content. If you have any questions or would like to get in touch with me, you can find my contact information on the portfolio website.
 
-Contributing
+## Contributing
+
 I welcome contributions and feedback from the community. If you'd like to contribute to this project, please follow these guidelines:
 
 Fork the repository.
